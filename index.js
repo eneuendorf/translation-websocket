@@ -59,8 +59,8 @@ async function fetchAndBroadcast() {
     }
 }
 
-// Fetch new translations every 5 seconds
-setInterval(fetchAndBroadcast, 5000);
+// Fetch new translations every 3 seconds
+setInterval(fetchAndBroadcast, 3000);
 
 // Start server
 server.listen(PORT, () => {
